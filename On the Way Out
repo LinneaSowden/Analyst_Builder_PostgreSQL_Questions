@@ -1,3 +1,6 @@
+-- Identify the ids of the 3 oldest employees.
+-- Order output from oldest to youngest.
+
 SELECT employee_id FROM employees
 ORDER BY birth_date ASC
 LIMIT 3;
